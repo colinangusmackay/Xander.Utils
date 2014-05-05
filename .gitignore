@@ -1,0 +1,13 @@
+
+# Visual Studio: Solution level User Settings file
+*.suo
+# Visual Studio: Project level user settings file 
+*.user
+
+
+# NuGet packages folder (must have NuGet package restore set on the solution)
+/src/packages
+
+# Stanard directories that should be ignored
+bin/
+obj/
