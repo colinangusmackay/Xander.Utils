@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Xander.Utils.Json</id>
+    <version>0.1.0</version>
+    <authors>Colin Angus Mackay</authors>
+    <owners>Xander-Framework</owners>
+    <licenseUrl>https://github.com/colinangusmackay/Xander.Utils/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/colinangusmackay/Xander.Utils</projectUrl>
+    <iconUrl>http://docs.xander-framework.org/XanderFrameworkLogo-128x128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright © 2014 Colin Angus Mackay. Available under MIT License.</copyright>
+    <summary>A set of utility classes for helping with web applications without ties to a specific web framework.</summary>
+    <description>
+      A set of tools and helpers that assist with working with Json Data.
+    </description>
+    <tags>xander json</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.3" />
+    </dependencies>
+    <frameworkAssemblies>
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Xander.Utils.Json.dll" target="lib\net40\" />
+    <file src="bin\Release\Xander.Utils.Json.pdb" target="lib\net40\" />
+  </files>
+</package>
